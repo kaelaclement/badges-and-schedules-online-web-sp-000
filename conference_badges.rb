@@ -4,13 +4,8 @@ end
 
 def batch_badge_creator(attendees)
   attendees.collect {|attendee| badge_maker(attendee)}
-#  badges = []
-#  attendees.each do |attendee|
-#    badges << badge_maker(attendee)
-#  end
-#  badges
 end
 
 def assign_rooms(attendees)
-
+  
 end
